@@ -1,1 +1,1 @@
-https://geovanabsouza.github.io/curriculobootstrap
+https://geovanabsouza.github.io/curriculobootstrap/
