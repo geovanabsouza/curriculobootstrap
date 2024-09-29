@@ -18,6 +18,12 @@ h1{
   font-size: 2rem;
 }
 
+h2{
+  color:#415d1a;
+  font-size: 1.5rem;
+  opacity: 50%;
+}
+
 /*Navigation Bar*/
 
 ul {
@@ -44,5 +50,25 @@ li a {
 li a:hover {
   background-color: #fa6a64;
 }
+
+/*Header*/
+ header{
+  background-color: #FFC0CB;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+ }
+
+.imgfigure{
+  width: 25%;
+}
+
+.pfigure{
+  text-align: left;
+}
+
+
 
 
