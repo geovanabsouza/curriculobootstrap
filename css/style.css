@@ -5,10 +5,38 @@
 #415d1a
 #ccbca1
 #fbf3ed
+#FFE4E1
 */
 
 body{
   background-color:#fbf3ed;
+}
+
+/*Definições das sections*/
+
+section{
+  padding: 3%;
+}
+
+.especialidades{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.conhecimentos{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.servicos{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 /*Definições das fontes*/
@@ -16,6 +44,7 @@ body{
 h1{
   color:#415d1a;
   font-size: 2rem;
+  text-align: center;
 }
 
 h2{
@@ -53,7 +82,7 @@ li a:hover {
 
 /*Header*/
  header{
-  background-color: #FFC0CB;
+  background-color: #FFE4E1;
   padding: 3%;
   margin-left: 10%;
   margin-right: 10%;
@@ -62,13 +91,52 @@ li a:hover {
  }
 
 .imgfigure{
-  width: 25%;
+  float:left;
+  width: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
-.pfigure{
+.pfigure {
+  padding-bottom: 3%;
+  text-align: left;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 3%;
+  color: black;
+}
+
+.h1header{
+  color:#415d1a;
+  font-size: 2rem;
   text-align: left;
 }
 
+.h2header{
+  color:#415d1a;
+  font-size: 1.5rem;
+  opacity: 50%;
+}
 
+/*Definições sobre o Contato*/
 
+.contato{
+  background-color: white;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.imgcontact{
+  width: 4%;
+  float: left;
+}
+
+.pcontact{
+  color: #7a4e48;
+}
 
