@@ -1,176 +1,34 @@
-/* Paleta de cores do site
-
-#fa6a64
-#7a4e48
-#415d1a
-#ccbca1
-#fbf3ed
-#FFE4E1
-*/
-
-body{
-  background-color:#fbf3ed;
-}
-
-p{
-  color: black;
-}
-
-/*Definições das sections*/
-
-section{
-  padding: 3%;
-}
-
-.especialidades{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.conhecimentos{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.servicos{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-/*Definições das fontes*/
-
-h1{
-  color:#415d1a;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-h2{
-  color:#415d1a;
-  font-size: 1.5rem;
-  opacity: 50%;
-}
-
-/*Navigation Bar*/
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7a4e48;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #fa6a64;
-}
-
 /*Header*/
- header{
-  background-color: #FFE4E1;
-  padding: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
- }
 
-.imgfigure{
-  float:left;
-  width: 25%;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-top: 2%;
+.logo{
+    width: 10%;
 }
 
-.pfigure {
-  padding-bottom: 3%;
-  text-align: left;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 3%;
-  color: black;
+/*Body*/
+
+.section{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
 }
 
-.h1header{
-  color:#415d1a;
-  font-size: 2rem;
-  text-align: left;
+.barrah1{
+    padding: 2%;
 }
 
-.h2header{
-  color:#415d1a;
-  font-size: 1.5rem;
-  opacity: 50%;
+.pgrid{
+    text-align: left;
+    margin-top: 5%;
 }
 
-/*Definições sobre o Contato*/
+/*Footer*/
 
-.contato{
-  background-color: white;
-  padding: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+.footer{
+    padding: 5%;
+    background-color: blueviolet;
 }
 
-.imgcontact{
-  width: 4%;
-  float: left;
+.pfooter{
+    text-align: left;
+    padding-left: 1%;
 }
-
-.pcontact{
-  color: #7a4e48;
-}
-
-/*Definições Conhecimentos (Barrinhas)*/
-
-.nomes_linhas{
-  color: black;
-}
-
-/*Definições Especialidades (Cards)*/
-
-.row{
-  padding: 3%;
-  background-color: #415d1a;
-}
-
-.card-body{
-  color: black;
-  background-color: #FFE4E1;
-}
-
-/*Definições sobre os Serviços*/
-
-.servicos{
-  background-color: #FFE4E1;
-  padding: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-

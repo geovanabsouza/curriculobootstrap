@@ -1,152 +1,206 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap - Geo</title>
-    <link href="css\bootstrap.css" rel="stylesheet">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#especialidades">Especialidades</a></li>
-        <li><a href="#conhecimentos">Conhecimentos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li style="float:right"><a class="active" href="#contato">Contato</a></li>
-      </ul>
-    </nav>
     <header>
-      <section>
-          <h1 class="h1header">Bem-Vindo(a) ao meu currículo!</h1>
-          <h2 class="h2header">Eu me chamo Geovana de Brito Souza.</h2>
-          <figure>
-              <img src="img/euu.jfif" alt="" class="imgfigure">
-          </figure>
-          <p class="pfigure"> Eu resido em Ribeirão Pires, tenho dezesseis anos e atualmente, era suposto que eu estivesse
-            no segundo ano do Ensino Médio. No entanto, por preferência e dedicação, decidi por contra própria retornar
-            para o primeiro ano e estudar na prestigiada Etec Professora Maria Cristina Medeiros, onde estou cursando
-            Técnico para Informática.
-          </p>
-          <p class="pfigure"> Como podem ver, sou uma pessoa muito dedicada aos meus objetivos e também esforçada. 
-            Gostaria de citar um pouco das minhas capacidades criativas, onde, dessa forma, consigo facilmente
-            trabalhar em grupo. Sou comunicativa nas minhas ideias e sempre gosto de estar entregando mais do que
-            foi pedido. Por isso, estou ansiosa para trabalhar com vocês!
-            Mas antes, conheçam mais um pouco das minhas qualidades aqui abaixo:
-          </p>
-      </section>
-    </header>
-    <main>
-      <section class="especialidades" id="especialidades">
-        <h1>Especialidades</h1>
-       
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Cursando Inglês</h5>
-                <p class="card-text">Atualmente estou me aprofundando no inglês na escola de idiomas Wizard há quase quatro anos.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <nav class="navbar bg-body-tertiary">
+          </nav>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+            <div class="container">
+                <a>
+                  <img src="img/logo.jpg" class="logo">
+                </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link "  href="#geo">Geo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
               </div>
             </div>
+          </nav>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/fundo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+      </header>
 
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Participo de Concursos Miss</h5>
-                <p class="card-text">Já participei de três Concursos Miss e pude desenvolver muito a minha comunicação com as pessoas.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <main>
+        <section class="section" id="geo">
+            <h1>SOBRE MIM</h1>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <p class="pgrid">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                  </div>
+                  <div class="col">
+                    <p class="pgrid">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                  </div>
+                </div>
               </div>
-            </div>
+        </section>
+        
+        <section class="section">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> 
           </div>
         </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> 
+          </div>
+        </div>
+        </div>
+        </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class="section">
+            <h1 class="barrah1">Algumas habilidades</h1>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+        </section>
+        <section class="section">
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+        </section>
+        <section class="section">
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+        </section>
+        <section class="section">
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+        </section>
         
-      
-      </section>
-
-      <section class="conhecimentos" id="conhecimentos">
-        <h1>Conhecimentos</h1>
-        <h2> Estudando Html, Css e Python</h3>
-        <p> Estudando para obter maior conhecimento em Html e Css, além de Python, onde abordo a matéria através de Programação e Algorítimos.
-        </p>
-        <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              
-              <p class="nomes_linhas">HTML - 45%</p>
-      
-              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%"></div>
-              </div>
-
-              <p class="nomes_linhas">CSS - 30%</p>
-      
-              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%"></div>
-              </div>
-
-              <p class="nomes_linhas">Python - 30%</p>
-      
-              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%"></div>
-              </div>
-
-              <p class="nomes_linhas">Javascript - 1%</p>
-      
-              <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-</div>
-</div> 
-      <section class="servicos" id="servicos">
-        <h1>Serviços</h1>
-          <p>Estes são alguns dos trabalhos e atividades que desenvolvi/ estou desenvolvendo durante a minha trajetória na Etec MCM.</p>
-            <div>
-                <p><a href="https://github.com/geovanabsouza/meuprimeirosite" target="_blank">Meu Primeiro Site</a></p>
-            </div>
-  
-            <div>
-                <p><a href="https://github.com/geovanabsouza/Aulas_PA" >Programação e Algorítimos </a></p>
-            </div>
-          </section>
-  
-      </section >
-
-      <section class="contato" id="contato">
-        <h1>Contato</h1>
-          <div>
-              <img src="img/images (1).png" class="imgcontact" alt="GitHub">
-              <p><a href="https://github.com/geovanabsouza" class="pcontact" target="_blank">GitHub</a></p>
-          </div>
-
-          <div>
-              <img src="img/images.png" class="imgcontact" alt="email">
-              <p><a href="mailto:geovanabsouza08@gmail.com" class="pcontact">geovanabsouza08@gmail.com </a></p>
-          </div>
-
-          <div>
-              <img src="img/linkedin.png" class="imgcontact" alt="Linkedin">
-              <p><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-morais-a012691b2/" class="pcontact" target="_blank">Linkedin</a></p>
-          </div>
-          
-      </section>
-
-      <br class="gamb">
-      <br class="gamb">
-      </section>
     </main>
-    <footer>
+    
+    <footer class="footer">
+        <script src="js/bootstrap.bundle.js"></script>
+        <p class="pfooter"> Desenvolvido por Geovana de Brito Souza</p>
+        <p class="pfooter">Contate-me:</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
 
-    </footer>
-    <script src="js/bootstrap.bundle.js"></script>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                <div class="modal-body">
+    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+      </footer>
   </body>
+  
 </html>
+
+
